@@ -8,17 +8,19 @@
 /**
  * Return Command or Control for the right time, right system
  * @param {String} shortOrLong (optional) return short version or the long version
- * @param {String} PascalOrNot (optional) capitalize the first letter or not
+ * @param {String} pascalOrNot (optional) capitalize the first letter or not
  * @returns {String} The thing you want to get.
  */
-function cmdOrCtrl(shortOrLong, PascalOrNot) {
-    if (shortOrLong != "long" && PascalOrNot != "pascal")
+function cmdOrCtrl(shortOrLong, pascalOrNot) {
+    if (typeof shortOrLong == "undefined" && typeof pascalOrNot == "undefined")
         return process.platform == "darwin" ? "cmd" : "ctrl";
-    else if (shortOrLong == "long" && PascalOrNot != "pascal")
+    else if (shortOrLong != "long" && pascalOrNot != "pascal")
+        return process.platform == "darwin" ? "cmd" : "ctrl";
+    else if (shortOrLong == "long" && pascalOrNot != "pascal")
         return process.platform == "darwin" ? "command" : "control";
-    else if (shortOrLong == "long" && PascalOrNot == "pascal")
+    else if (shortOrLong == "long" && pascalOrNot == "pascal")
         return process.platform == "darwin" ? "Command" : "Control";
-    else if (shortOrLong != "long" && PascalOrNot == "pascal")
+    else if (shortOrLong != "long" && pascalOrNot == "pascal")
         return process.platform == "darwin" ? "Cmd" : "Ctrl";
 }
 
