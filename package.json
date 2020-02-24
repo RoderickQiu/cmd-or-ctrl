@@ -1,0 +1,44 @@
+{
+  "name": "cmd-or-ctrl",
+  "version": "0.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {},
+  "description": "The main thing this package does is simply returning 'command' or 'control' based on the OS the user is using, and the another things is to return the common names of OSs.",
+  "author": {
+    "name": "Roderick Qiu",
+    "email": "scrisqiu@hotmail.com",
+    "url": "http://github.com/RoderickQiu"
+  },
+  "bugs": {
+    "url": "https://github.com/RoderickQiu/cmd-or-ctrl/issues",
+    "email": "scrisqiu@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RoderickQiu/cmd-or-ctrl.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Roderick Qiu",
+    "RoderickQiu",
+    "scris",
+    "cmd-or-ctrl",
+    "cmdOrCtrl",
+    "cmd",
+    "ctrl",
+    "command",
+    "control",
+    "os",
+    "operating system",
+    "Windows",
+    "macOS",
+    "Linux",
+    "win32",
+    "darwin",
+    "electron",
+    "node"
+  ]
+}
