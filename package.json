@@ -1,12 +1,12 @@
 {
   "name": "cmd-or-ctrl",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "dependencies": {},
-  "description": "The main thing this package does is simply returning 'command' or 'control' based on the OS the user is using, and the another things is to return the common names of OSs.",
+  "description": "The main thing: returning 'command' or 'control' based on the OS the user is using; another thing: returning the common names of OSs.",
   "author": {
     "name": "Roderick Qiu",
     "email": "scrisqiu@hotmail.com",

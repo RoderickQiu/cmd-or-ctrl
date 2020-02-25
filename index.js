@@ -25,6 +25,7 @@ function cmdOrCtrl(shortOrLong, pascalOrNot) {
 }
 
 exports.cmdOrCtrl = cmdOrCtrl;
+exports._ = cmdOrCtrl;
 
 /**
  * Return the current os name.
