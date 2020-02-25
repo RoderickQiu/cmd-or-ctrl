@@ -27,3 +27,9 @@ console.log(cmdOrCtrl._())// alternative of `cmdOrCtrl`, returns `ctrl`
 console.log(cmdOrCtrl.os());// returns 'win32' or other os name
 console.log(cmdOrCtrl.os("name"));// returns 'macOS' / 'Linux' / 'Windows' or other os name
 ```
+
+## Copyright
+
+Licensed under [MIT License](https://github.com/RoderickQiu/cmd-or-ctrl/blob/master/LICENSE).
+
+**(c) 2020 [Roderick Qiu](https://r-q.name)**.

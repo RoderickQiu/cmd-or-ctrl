@@ -1,6 +1,7 @@
 /****
  * @module cmd-or-ctrl
  * @copyright Roderick Qiu
+ * @version 0.3.1
  */
 
 'use strict';
